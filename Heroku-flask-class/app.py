@@ -27,9 +27,9 @@ def index():
     l = 0
     # print new message content
     for line in message:
-        # l += 1
+        l += 1
         # message.append(line.strip())
-        print("Line{}: {}".format(l, line.strip()))
+        # print("Line{}: {}".format(l, line.strip()))
 
     # with open("newfile.txt", "a+") as n:
     #     # Strips the newline character
